@@ -15,8 +15,23 @@
 
             <div class="col-md-3 py-4">
                 <div class="card bg-white shadow-sm mb-3">
+                    <img src="images/seasonal_pricing.jpeg" class="card-img-top" alt="Seasonal price">
                     <div class="card-body">
-                        Contact form
+                        <form method="POST" action="https://www.dominicanshuttles.com" accept-charset="UTF-8" id="contact_form">
+                            <input name="_token" type="hidden" value="FT0ooFVgClWAMbo8DkudJ4iFkbvafnmdBHJ9lMTo">
+                            <p><input class="form-control" placeholder="First Name" name="name" type="text" value=""></p>
+                            <p><input class="form-control" placeholder="Second Name" name="second_name" type="text" value=""></p>
+                            <p><input class="form-control" placeholder="E-Mail" autocomplete="off" name="email" type="email" value=""></p>
+                            <p><input class="form-control" placeholder="Phone" name="phone" type="text" value=""></p>
+                            <p><textarea class="form-control" rows="3" placeholder="Message" name="message" cols="50"></textarea></p>
+
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" class="btn btn-danger" id="Clk_submit_contact">Quick Contact</button>
+
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
 
